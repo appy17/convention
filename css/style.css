@@ -12237,7 +12237,25 @@ ol.commentlist li::after {
 	.chatbot__header span {
 	  display: inline;
 	}
-   }
+	  .chatbot__button {
+		position: absolute;
+		position: fixed;
+		z-index: 999999;
+		top: 82%;
+		left: 96%; /* Default for non-mobile */
+	 }
+	 
+	 /* Media query for mobile devices */
+	 @media (max-width: 750px) {
+		.chatbot__button {
+			border: 2px solid red;
+		    left: 70%;
+		    margin-left:-50px;/* Adjusted for mobile */
+		}
+	 }
+
+   }	
+ 
    .social-btn {
 	display: flex;
 	width: 165px;

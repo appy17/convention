@@ -4491,6 +4491,7 @@ ol.list-num-count.list-outline-none > li:before {
 	margin-right:-3px;
 	font-size:12px;
 	margin-bottom: 0px;
+	border:2px solid red
 }
 .widget_social_inks 
 .social-icons {
@@ -5232,7 +5233,7 @@ input[type=radio]:checked + label:before {
 	position:fixed;
 	left:0;
 	top:0;
-	z-index:9999;
+	z-index:999999999;
 	overflow:hidden;
 }
 .loading-box{
@@ -5243,13 +5244,13 @@ input[type=radio]:checked + label:before {
 	left:0;
 	top:0;
 	opacity:1;
-	z-index:9999;
+	z-index:999999999;
 }
 .loading-pic{
 	width:100%;
 	position:absolute;
 	top:50%;
-	z-index:99999;
+	z-index:9999999999;
 	text-align:center;
     transform: translateY(-50%);
 }
